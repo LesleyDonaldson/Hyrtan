@@ -1852,3 +1852,141 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2023.12.01-00.44.21:724][116]LogFileHelpers: InternalPromptForCheckoutAndSave took 89 ms
 [2023.12.01-00.44.21:727][116]AssetCheck: New page: Asset Save: Hyrtan_Two
 [2023.12.01-00.44.21:727][116]LogContentValidation: Display: Validating /Script/Engine.World /Game/Level_Maps/Hyrtan_Two.Hyrtan_Two
+[2023.12.01-00.53.11:366][961]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_Player.BP_Player_C
+[2023.12.01-00.53.11:366][961]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_Player.BP_Player_C
+[2023.12.01-00.53.11:367][961]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_Player.BP_Player as actor: BP_Player_C /Game/Level_Maps/Hyrtan_Two.Hyrtan_Two:PersistentLevel.BP_Player_C_0
+[2023.12.01-00.53.11:368][961]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_Player.BP_Player as actor: BP_Player_C /Game/Level_Maps/Hyrtan_Two.Hyrtan_Two:PersistentLevel.BP_Player_C_0
+[2023.12.01-00.53.11:371][961]LogActorFactory: Loading ActorFactory Class /Script/Engine.LevelInstance
+[2023.12.01-00.53.18:571][816]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_Player.BP_Player_C
+[2023.12.01-00.53.18:571][816]LogActorFactory: Actor Factory attempting to spawn BlueprintGeneratedClass /Game/Blueprints/BP_Player.BP_Player_C
+[2023.12.01-00.53.18:574][816]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_Player.BP_Player as actor: BP_Player_C /Game/Level_Maps/Hyrtan_Two.Hyrtan_Two:PersistentLevel.BP_Player_C_1
+[2023.12.01-00.53.18:575][816]LogActorFactory: Actor Factory spawned Blueprint /Game/Blueprints/BP_Player.BP_Player as actor: BP_Player_C /Game/Level_Maps/Hyrtan_Two.Hyrtan_Two:PersistentLevel.BP_Player_C_1
+[2023.12.01-00.53.18:647][817]LogViewport: Scene viewport resized to 686x388, mode Windowed.
+[2023.12.01-00.53.22:846][303]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.12.01-00.53.22:852][303]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.12.01-00.53.22:852][303]PIE: New page: PIE session: Hyrtan_Two (Nov 30, 2023, 2:53:22 PM)
+[2023.12.01-00.53.22:852][303]LogPlayLevel: Creating play world package: /Game/Level_Maps/UEDPIE_0_Hyrtan_Two
+[2023.12.01-00.53.22:854][303]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001801s)
+[2023.12.01-00.53.22:854][303]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level_Maps/Hyrtan_Two.Hyrtan_Two to /Game/Level_Maps/UEDPIE_0_Hyrtan_Two.Hyrtan_Two (0.001833s)
+[2023.12.01-00.53.22:854][303]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.01-00.53.22:854][303]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.01-00.53.22:855][303]LogAIModule: Creating AISystem for world Hyrtan_Two
+[2023.12.01-00.53.22:855][303]LogPlayLevel: PIE: World Init took: (0.000742s)
+[2023.12.01-00.53.22:865][303]LogUObjectHash: Compacting FUObjectHashTables data took   0.41ms
+[2023.12.01-00.53.22:866][303]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2023.12.01-00.53.22:866][303]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.12.01-00.53.22:866][303]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.12.01-00.53.22:866][303]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.12.01-00.53.22:866][303]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.12.01-00.53.22:866][303]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.12.01-00.53.22:866][303]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.12.01-00.53.22:866][303]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.12.01-00.53.22:866][303]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.12.01-00.53.22:866][303]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.12.01-00.53.22:866][303]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.12.01-00.53.22:866][303]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.12.01-00.53.22:868][303]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.12.01-00.53.22:889][303]LogAudioMixer: Display: Using Audio Hardware Device Speakers (4- USB Audio Device)
+[2023.12.01-00.53.22:889][303]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.12.01-00.53.22:889][303]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.12.01-00.53.22:889][303]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.12.01-00.53.22:890][303]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=6
+[2023.12.01-00.53.22:890][303]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=6
+[2023.12.01-00.53.22:892][303]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=6
+[2023.12.01-00.53.22:892][303]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=6
+[2023.12.01-00.53.22:892][303]LogInit: FAudioDevice initialized with ID 6.
+[2023.12.01-00.53.22:892][303]LogAudio: Display: Audio Device (ID: 6) registered with world 'Hyrtan_Two'.
+[2023.12.01-00.53.22:892][303]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 6
+[2023.12.01-00.53.22:894][303]LogLoad: Game class is 'GameModeBase'
+[2023.12.01-00.53.22:939][303]LogWorld: Bringing World /Game/Level_Maps/UEDPIE_0_Hyrtan_Two.Hyrtan_Two up for play (max tick rate 0) at 2023.11.30-19.53.22
+[2023.12.01-00.53.22:943][303]LogWorld: Bringing up level for play took: 0.047906
+[2023.12.01-00.53.22:945][303]LogOnline: OSS: Created online subsystem instance for: :Context_7
+[2023.12.01-00.53.22:946][303]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2023.12.01-00.53.24:245][303]LogBlueprintUserMessages: [BP_Player_C_1] 100.0
+[2023.12.01-00.53.24:246][303]PIE: Server logged in
+[2023.12.01-00.53.24:247][303]PIE: Play in editor total start time 1.395 seconds.
+[2023.12.01-00.53.38:313][974]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.01-00.53.38:313][974]LogWorld: BeginTearingDown for /Game/Level_Maps/UEDPIE_0_Hyrtan_Two
+[2023.12.01-00.53.38:313][974]LogWorld: UWorld::CleanupWorld for Hyrtan_Two, bSessionEnded=true, bCleanupResources=true
+[2023.12.01-00.53.38:313][974]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.01-00.53.38:317][974]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.12.01-00.53.38:318][974]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.01-00.53.38:328][974]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.12.01-00.53.38:328][974]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 6
+[2023.12.01-00.53.38:328][974]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2023.12.01-00.53.38:330][974]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=6
+[2023.12.01-00.53.38:334][974]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.01-00.53.38:336][974]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2023.12.01-00.53.38:385][975]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2023.12.01-00.53.38:388][975]LogViewport: Scene viewport resized to 686x388, mode Windowed.
+[2023.12.01-00.53.38:516][986]Cmd: SELECT NONE
+[2023.12.01-00.53.39:800][139]Cmd: SELECT NONE
+[2023.12.01-00.53.41:397][330]Cmd: SELECT NONE
+[2023.12.01-00.53.42:300][437]LogEditorViewport: Clicking Background
+[2023.12.01-00.53.44:559][706]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2023.12.01-00.53.44:564][706]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2023.12.01-00.53.44:564][706]PIE: New page: PIE session: Hyrtan_Two (Nov 30, 2023, 2:53:44 PM)
+[2023.12.01-00.53.44:564][706]LogPlayLevel: Creating play world package: /Game/Level_Maps/UEDPIE_0_Hyrtan_Two
+[2023.12.01-00.53.44:566][706]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001771s)
+[2023.12.01-00.53.44:566][706]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level_Maps/Hyrtan_Two.Hyrtan_Two to /Game/Level_Maps/UEDPIE_0_Hyrtan_Two.Hyrtan_Two (0.001802s)
+[2023.12.01-00.53.44:566][706]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2023.12.01-00.53.44:566][706]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2023.12.01-00.53.44:567][706]LogAIModule: Creating AISystem for world Hyrtan_Two
+[2023.12.01-00.53.44:567][706]LogPlayLevel: PIE: World Init took: (0.000731s)
+[2023.12.01-00.53.44:574][706]LogUObjectHash: Compacting FUObjectHashTables data took   0.31ms
+[2023.12.01-00.53.44:575][706]LogAudio: Display: Creating Audio Device:                 Id: 7, Scope: Unique, Realtime: True
+[2023.12.01-00.53.44:575][706]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2023.12.01-00.53.44:575][706]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2023.12.01-00.53.44:575][706]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2023.12.01-00.53.44:575][706]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2023.12.01-00.53.44:575][706]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2023.12.01-00.53.44:575][706]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2023.12.01-00.53.44:575][706]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2023.12.01-00.53.44:575][706]LogAudio: Display: AudioDevice MaxSources: 32
+[2023.12.01-00.53.44:575][706]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2023.12.01-00.53.44:575][706]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2023.12.01-00.53.44:575][706]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2023.12.01-00.53.44:577][706]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2023.12.01-00.53.44:597][706]LogAudioMixer: Display: Using Audio Hardware Device Speakers (4- USB Audio Device)
+[2023.12.01-00.53.44:598][706]LogAudioMixer: Display: Initializing Sound Submixes...
+[2023.12.01-00.53.44:598][706]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2023.12.01-00.53.44:598][706]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2023.12.01-00.53.44:598][706]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=7
+[2023.12.01-00.53.44:598][706]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=7
+[2023.12.01-00.53.44:600][706]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=7
+[2023.12.01-00.53.44:600][706]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=7
+[2023.12.01-00.53.44:600][706]LogInit: FAudioDevice initialized with ID 7.
+[2023.12.01-00.53.44:600][706]LogAudio: Display: Audio Device (ID: 7) registered with world 'Hyrtan_Two'.
+[2023.12.01-00.53.44:600][706]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 7
+[2023.12.01-00.53.44:603][706]LogLoad: Game class is 'GameModeBase'
+[2023.12.01-00.53.44:648][706]LogWorld: Bringing World /Game/Level_Maps/UEDPIE_0_Hyrtan_Two.Hyrtan_Two up for play (max tick rate 0) at 2023.11.30-19.53.44
+[2023.12.01-00.53.44:648][706]LogWorld: Bringing up level for play took: 0.046148
+[2023.12.01-00.53.44:650][706]LogOnline: OSS: Created online subsystem instance for: :Context_8
+[2023.12.01-00.53.44:652][706]LogGameMode: FindPlayerStart: PATHS NOT DEFINED or NO PLAYERSTART with positive rating
+[2023.12.01-00.53.45:962][706]LogBlueprintUserMessages: [BP_Player_C_1] 100.0
+[2023.12.01-00.53.45:963][706]PIE: Server logged in
+[2023.12.01-00.53.45:963][706]PIE: Play in editor total start time 1.399 seconds.
+[2023.12.01-00.53.47:184][832]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.01-00.53.47:184][832]LogWorld: BeginTearingDown for /Game/Level_Maps/UEDPIE_0_Hyrtan_Two
+[2023.12.01-00.53.47:184][832]LogWorld: UWorld::CleanupWorld for Hyrtan_Two, bSessionEnded=true, bCleanupResources=true
+[2023.12.01-00.53.47:184][832]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.01-00.53.47:187][832]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2023.12.01-00.53.47:189][832]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2023.12.01-00.53.47:198][832]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2023.12.01-00.53.47:198][832]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 7
+[2023.12.01-00.53.47:198][832]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2023.12.01-00.53.47:199][832]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7
+[2023.12.01-00.53.47:202][832]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2023.12.01-00.53.47:205][832]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2023.12.01-00.53.47:251][837]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2023.12.01-00.53.58:691][200]LogViewport: Scene viewport resized to 686x388, mode Windowed.
+[2023.12.01-00.54.18:518][485]LogSlate: Took 0.000161 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2023.12.01-00.54.46:801][740]LogUObjectHash: Compacting FUObjectHashTables data took   0.35ms
+[2023.12.01-00.54.46:804][740]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2023.12.01-00.54.46:865][740]LogUObjectHash: Compacting FUObjectHashTables data took   0.24ms
+[2023.12.01-00.54.46:870][740]LogSavePackage: Moving output files for package: /Game/Level_Maps/Hyrtan_Two
+[2023.12.01-00.54.46:870][740]LogSavePackage: Moving '../../../../../../Users/Lesley/Documents/GitHub/Hyrtan/Projects_GameDesignBootcamp2023/Saved/Hyrtan_TwoB1DC3FC84D2A574669A5B0974141EB5F.tmp' to '../../../../../../Users/Lesley/Documents/GitHub/Hyrtan/Projects_GameDesignBootcamp2023/Content/Level_Maps/Hyrtan_Two.umap'
+[2023.12.01-00.54.46:879][740]LogFileHelpers: Saving map 'Hyrtan_Two' took 0.023
+[2023.12.01-00.54.47:070][740]LogFileHelpers: InternalPromptForCheckoutAndSave took 266 ms (total: 355 ms)
+[2023.12.01-00.54.47:074][740]AssetCheck: New page: Asset Save: Hyrtan_Two
+[2023.12.01-00.54.47:074][740]LogContentValidation: Display: Validating /Script/Engine.World /Game/Level_Maps/Hyrtan_Two.Hyrtan_Two
